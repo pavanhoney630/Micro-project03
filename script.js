@@ -20,8 +20,8 @@ console.log(display);
                 display.value = eval(display.value);
                
             } catch (e) {
-                display.value = '';
-                result.innerHTML = 'Error'
+                display.value = 'Error';
+               
             }
         }
 
